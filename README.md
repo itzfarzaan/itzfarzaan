@@ -1,5 +1,6 @@
-## Hi, I am Farzaan Ali.
+## Hi, I am Farzaan.
 
+Contact me on: <a href="mailto:officialfarzaanali@gmail.com">officialfarzaanali@gmail.com</a>
 <!--
 **itzfarzaan/itzfarzaan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
