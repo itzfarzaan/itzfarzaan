@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Building</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        /* Black neon-themed page */
+        /* Basic Page Setup */
         body {
             margin: 0;
             font-family: 'Orbitron', sans-serif;
-            background: black;
-            color: #00ffcc;
+            background: radial-gradient(circle at center, #111 0%, #000 100%);
+            color: white;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -21,54 +22,52 @@
 
         h1 {
             font-size: 3rem;
+            font-weight: 700;
+            color: #0ff;
             text-transform: uppercase;
-            font-weight: bold;
-            color: #00ffcc;
-            text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc, 0 0 20px #00ffcc;
-            animation: neon-flicker 1.5s infinite alternate;
+            letter-spacing: 2px;
+            text-shadow: 0 0 5px #0ff, 0 0 15px rgba(0, 255, 255, 0.6);
         }
 
         p {
             font-size: 1.2rem;
-            font-weight: lighter;
-            color: #ff00ff;
-            text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
+            font-weight: 400;
+            color: #ccc;
+            letter-spacing: 1px;
+            text-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
         }
 
         .logo {
-            font-size: 5rem;
-            color: #00ffcc;
-            text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
-            animation: pulse 1.5s infinite alternate;
+            font-size: 4rem;
+            color: #0ff;
+            text-shadow: 0 0 8px #0ff, 0 0 20px rgba(0, 255, 255, 0.5);
+            animation: fadeGlow 1.5s infinite alternate;
         }
 
         .footer {
             position: absolute;
-            bottom: 10px;
-            font-size: 1rem;
-            color: #ff00ff;
-            text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
+            bottom: 15px;
+            font-size: 0.9rem;
+            color: #888;
+            text-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
         }
 
-        /* Animations */
-        @keyframes neon-flicker {
-            0% { opacity: 1; }
-            50% { opacity: 0.8; }
-            100% { opacity: 1; text-shadow: 0 0 5px #00ffcc, 0 0 15px #00ffcc, 0 0 25px #00ffcc; }
-        }
-
-        @keyframes pulse {
-            0% { text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc; }
-            100% { text-shadow: 0 0 15px #00ffcc, 0 0 30px #00ffcc; }
+        /* Glow Animation */
+        @keyframes fadeGlow {
+            0% { text-shadow: 0 0 8px #0ff, 0 0 20px rgba(0, 255, 255, 0.4); }
+            100% { text-shadow: 0 0 12px #0ff, 0 0 25px rgba(0, 255, 255, 0.8); }
         }
     </style>
 </head>
 <body>
+    <!-- Cogwheel Logo -->
     <div class="logo">⚙️</div>
 
+    <!-- Heading & Subheading -->
     <h1>Website Building</h1>
-    <p>Welcome to my neon world</p>
+    <p>Welcome to my website</p>
 
+    <!-- Footer -->
     <div class="footer">Owned by Farzaan Ali</div>
 </body>
 </html>
